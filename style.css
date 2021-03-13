@@ -2,55 +2,53 @@
 /*  812*/
 html{
     box-sizing: border-box;
-    
-  }
-  * {
-    box-sizing: inherit;
-  }
-  body{
+    font-size: 100%;
     margin: 0;
     padding: 0;
-    height: 100vh;
-    width: 100vw;
-  }
-  
-  .container{
-    margin: 0 auto;
-    width: 100%;
-    height: 100%;
-    background: brown;
-    display: flex;
-    flex-direction: column;
-  }
-  header{
-    height: 3rem;
-    background: cadetblue;
-  }
-  .msg-box{
-    width: 100%;
-    height: 95%;
-    padding: 1rem 1rem;
-    flex: 1;
-    display: flex;
-    flex-direction: column-reverse;
-    background: pink;
-  }
-  .msg {
-    display: flex;
-    background: rosybrown;
-  }
-  .form{
-    width: 100%;
-    height: 5%;
-    display: flex;
-  }
-  .form :is(input, button){
-    height: 100%;
-  }
-  .form input{
-    flex: 1;
-    padding: 0 1rem 0 1rem;
-  }
-  .form button{
-    
-  }
+}
+* {
+  box-sizing: inherit;
+}
+body{
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  width: 100vw;
+}
+
+.container{
+  width: 100%;
+  height: 100%;
+  background: brown;
+  display: flex;
+  flex-direction: column;
+}
+header{
+  height: 3rem;
+  background: cadetblue;
+}
+.msg-box{
+  width: 100%;
+  height: 95%;
+  padding: 1rem 1rem;
+  flex: 1;
+  display: flex;
+  flex-direction: column-reverse;
+  background: pink;
+}
+.msg {
+  display: flex;
+  background: rosybrown;
+}
+.form{
+  width: 100%;
+  height: 5%;
+  display: flex;
+}
+.form :is(input, button){
+  height: 100%;
+}
+.form input{
+  flex: 1;
+  padding: 0 1rem 0 1rem;
+}
